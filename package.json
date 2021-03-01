@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/sbgrb/vue2bysbgrb/issues"
   },
-  "homepage": "https://github.com/sbgrb/vue2bysbgrb#readme"
+  "homepage": "https://github.com/sbgrb/vue2bysbgrb#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
 }
