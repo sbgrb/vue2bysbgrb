@@ -1,6 +1,6 @@
 {
   "name": "sbgrbgulu",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "UI",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,14 @@
   },
   "homepage": "https://github.com/sbgrb/vue2bysbgrb#readme",
   "dependencies": {
-    "vue": "^2.6.12"
+    "node-sass": "^5.0.0",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.24.3"
   }
 }
