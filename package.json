@@ -21,14 +21,18 @@
   },
   "homepage": "https://github.com/sbgrb/vue2bysbgrb#readme",
   "dependencies": {
+    "css-loader": "^5.1.1",
     "node-sass": "^5.0.0",
-    "vue": "^2.5.16"
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.4"
   },
   "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
     "gulp": "^4.0.2",
-    "parcel-bundler": "^1.12.4",
+    "parcel-bundler": "^1.12.3",
     "sass": "^1.32.8",
     "sass-loader": "^11.0.1",
+    "vue-template-compiler": "^2.6.12",
     "webpack": "^5.24.3"
   }
 }
