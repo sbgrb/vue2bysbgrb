@@ -35,9 +35,9 @@
 </head>
 <body>
 <div id="app">
-    <g-button icon="setting">插槽</g-button>
+    <g-button icon="setting" :loading="loading" @click="loading = !loading">插槽</g-button>
     <g-button>插槽</g-button>
-    <g-button icon="setting" icon-position="right">插槽</g-button>
+    <g-button icon="setting" icon-position="right" :loading="true">插槽</g-button>
 </div>
 
 <script src="./src/app.js"></script>
